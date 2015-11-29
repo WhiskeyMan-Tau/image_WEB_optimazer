@@ -29,17 +29,17 @@ quality=90
 
 for img in `ls *.$file_format`
 do
-  # Изменяем качество, если задано
+  # Change the quality, if specified
   if [[ quality -gt 0 ]]; then
     `mogrify -quality $quality $img`
   fi
 
-  # Ширина
+  # Width
   if [[ `identify -format "%w" $img` -gt $img_max_width ]]; then
     `mogrify -resize $img_max_width $img`
   fi
 
-  # Высота
+  # Height
   if [[ `identify -format "%h" $img` -gt $img_max_height ]]; then
     `mogrify -resize x$img_max_height $img`
   fi
