@@ -1,4 +1,4 @@
-# image_WEB_optimazer
+# image WEB optimazer Script
 ## Optimaze images in the folder to public in WEB.
 
 # ENGLISH
@@ -19,9 +19,9 @@ ROTATE_DEG - specifies how many degrees you want to rotate the image
   0 to -360 - turn counterclockwise
 
 To work correctly, the script will need additional Packages:
-  Imagemagick ---------------------------------------------
+  Imagemagick
     Installation: sudo apt-get install imagemagick
-  Exiftool ------------------------------------------------
+  Exiftool
   It is planned to introduce a change in the EXIF, to remove 
   the author and Copyright and now installation of this 
   package is not needed.
@@ -45,9 +45,9 @@ ROTATE_DEG - задает на сколько градусов нужно пов
   от 0 до -360 - поворот против часовой
 
 Для корректной работы скрипта понадобятся дополнительные пакеты пакеты:
-  imagemagick---------------------------------------------
+  imagemagick
     Установка: sudo apt-get install imagemagick
-  exiftool------------------------------------------------
+  exiftool
   Планируется ввести изменение EXIF, для удаления автора 
   и копирайта, сейчас установка этого пакета не нужна.
     Установка: sudo apt-get install libimage-exiftool-perl
