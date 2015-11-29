@@ -4,7 +4,7 @@
 # ENGLISH
 The script changes the images in a folder, optimizing them for publication in the WEB.
 
-To use the select its paremetry section Script settings.
+To use script set options in section **Script settings** and copy script to folder where placed images.
 
 Description of the parameters:
 
@@ -41,7 +41,7 @@ To work correctly, the script will need additional Packages:
 
 Скрипт изменяет изображения в вапке, оптмизируя их для публикации в WEB.
 
-Для использования укажите свои пареметры в разделе Script settings.
+Для использования укажите свои пареметры в разделе **Script settings** и скопируйте скрипт в папку где находятся изображения.
 
 Описание параметров:
 
