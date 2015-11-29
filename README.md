@@ -7,7 +7,7 @@ The script changes the images in a folder, optimizing them for publication in th
 To use the select its paremetry section Script settings.
 
 Description of the parameters:
-FILE_FORMAT - Specifies the type of image expansion (jpg, png, etc.).
+*FILE_FORMAT* - Specifies the type of image expansion (jpg, png, etc.).
 IMG_MAX_WIDTH and IMG_MAX_HEIGHT - set the size (width and height) of the image.
 	If the picture is wider ilivysotu greater than specified, it will be up to umenshina
 	Specified size preserving the aspect ratio of the image.
