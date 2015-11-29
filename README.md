@@ -1,4 +1,4 @@
-									# Images WEB optimazer script
+#Images WEB optimazer script
 ## Optimaze images in the folder to public in WEB.
 
 # ENGLISH
