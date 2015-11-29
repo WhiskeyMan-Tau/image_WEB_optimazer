@@ -66,6 +66,7 @@ do
     `mogrify -quality $QUALITY $img`
   fi
 
+# Rotate image, if specified
 if [[ $ROTATE_DEG -ne 0 ]]; then
     `mogrify -rotate $ROTATE_DEG $img`
 fi
