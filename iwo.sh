@@ -3,7 +3,7 @@
 # ENGLISH ==========================================================================================
 # The script changes the images in a folder, optimizing them for publication in the WEB.
 #
-# To use the select its paremetry section Script settings.
+# To use set paremetrs in section **Script settings**.
 #
 # Description of the parameters:
 # FILE_FORMAT - Specifies the type of image expansion (jpg, png, etc.).
@@ -29,7 +29,7 @@
 # RUSSIAN===========================================================================================
 # Скрипт изменяет изображения в вапке, оптмизируя их для публикации в WEB.
 # 
-# Для использования укажите свои пареметры в разделе Script settings.
+# Для использования укажите свои пареметры в разделе **Script settings**.
 # 
 # Описание параметров:
 # FILE_FORMAT - Задает тип изображений по расширению (jpg, png и прочие).
