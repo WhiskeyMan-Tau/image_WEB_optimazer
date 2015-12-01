@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # ENGLISH ==========================================================================================
-# The script changes the image in the pack, optimizing them for publication in the WEB.
+# The script changes the image in the folder, optimizing them for publication in the WEB.
 #
 # To use, specify the parameters in the section ** Script settings **.
 #
@@ -35,7 +35,7 @@
 # Описание параметров:
 # FILE_FORMAT - Задает тип изображений по расширению (jpg, png и прочие).
 # IMG_MAX_WIDTH и IMG_MAX_HEIGHT - задают размер (ширину и высоту) изображения.
-#   Если картинка имеет больший ширину или высоту большую, чем заданный, она будет уменьшена до
+#   Если картинка имеет большую ширину или высоту, чем заданный, она будет уменьшена до
 #   указанного размера сохраняя пропорции изображения.
 # QUALITY - задает качетво (степень сжатия) изображения в процентах от оригинала (100%)
 #   100 - 100% качества.
