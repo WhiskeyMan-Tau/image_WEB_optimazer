@@ -1,16 +1,16 @@
 #!/bin/bash
 
 # ENGLISH ==========================================================================================
-# The script changes the images in a folder, optimizing them for publication in the WEB.
+# The script changes the image in the pack, optimizing them for publication in the WEB.
 #
-# To use set paremetrs in section **Script settings**.
+# To use, specify the parameters in the section ** Script settings **.
 #
 # Description of the parameters:
 # FILE_FORMAT - Specifies the type of image expansion (jpg, png, etc.).
 # IMG_MAX_WIDTH and IMG_MAX_HEIGHT - set the size (width and height) of the image.
-#   If the picture is wider ilivysotu greater than specified, it will be up to umenshina
+#   If the picture has a larger width or height greater than that specified, it will be reduced to
 #   Specified size preserving the aspect ratio of the image.
-# QUALITY - sets kachetvo (compression) images as a percentage of the original (100%)
+# QUALITY - sets the quality (compression) images as a percentage of the original (100%)
 #   100 - 100% quality.
 #   90 - 90% quality and so on.
 # ROTATE_DEG - specifies how many degrees you want to rotate the image
@@ -23,9 +23,8 @@
 #   Imagemagick ---------------------------------------------
 #     Installation: sudo apt-get install imagemagick
 #   Exiftool ------------------------------------------------
-#   It is planned to introduce a change in the EXIF, to remove 
-#   the author and Copyright and now installation of this 
-#   package is not needed.
+#     It is planned to introduce a change in the EXIF, to remove the author
+#     Copyright and now installation of this package is not needed.
 #     Installation: sudo apt-get install libimage-exiftool-perl
 
 # RUSSIAN===========================================================================================
@@ -44,7 +43,7 @@
 # ROTATE_DEG - задает на сколько градусов нужно повернуть изображения
 #   от 0 до 360  - поворот по часовой 
 #   от 0 до -360 - поворот против часовой
-# WATERMARK - Текст, который будет наложен в виде водяного знака
+# WATERMARK - Текст который будет наложен в виде водяного знака
 # WATERMARK_FONT_SIZE - Размер шрифта водяного знака
 #
 # Для корректной работы скрипта понадобятся дополнительные пакеты пакеты:
