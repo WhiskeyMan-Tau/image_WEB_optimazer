@@ -16,6 +16,8 @@
 # ROTATE_DEG - specifies how many degrees you want to rotate the image
 #   0 to 360 - rotate clockwise
 #   0 to -360 - turn counterclockwise
+# WATERMARK - The text that will be imposed as a watermark
+# WATERMARK_FONT_SIZE - The font size of the watermark
 #
 # To work correctly, the script will need additional Packages:
 #   Imagemagick ---------------------------------------------
@@ -42,6 +44,8 @@
 # ROTATE_DEG - задает на сколько градусов нужно повернуть изображения
 #   от 0 до 360  - поворот по часовой 
 #   от 0 до -360 - поворот против часовой
+# WATERMARK - Текст который будет наложен в виде водяного знака
+# WATERMARK_FONT_SIZE - Размер шрифта водяного знака
 #
 # Для корректной работы скрипта понадобятся дополнительные пакеты пакеты:
 #   imagemagick---------------------------------------------
@@ -56,14 +60,22 @@ FILE_FORMAT='jpg'
 IMG_MAX_WIDTH=900
 IMG_MAX_HEIGHT=900
 QUALITY=90
-ROTATE_DEG=180
+ROTATE_DEG=0
+WATERMARK=
+WATERMARK_FONT_SIZE=20
 # End Script settings ==============================================================================
 
 for img in `ls *.$FILE_FORMAT`
 do
   # Change the QUALITY, if specified
   if [[ $QUALITY -gt 0 ]]; then
-    `mogrify -quality $QUALITY $img`
+    `mogrify -quality $QUALITY $img` 
+  fi
+
+  # Add the watermark, if specified
+  if [[  -n $WATERMARK ]]; then
+    `mogrify -fill white -box '#00770080' -gravity South \
+   -pointsize $WATERMARK_FONT_SIZE -annotate +0+5 "   $WATERMARK   " $img`
   fi
 
 # Rotate image, if specified
