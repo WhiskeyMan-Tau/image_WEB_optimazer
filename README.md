@@ -12,11 +12,11 @@ Description of the parameters:
 
 **IMG_MAX_WIDTH** and **IMG_MAX_HEIGHT** - set the size (width and height) of the image.
 
-	If the picture is wider ilivysotu greater than specified, it will be up to umenshina
+	If the picture has a larger width or height greater than that specified, it will be reduced to
 	
-	Specified size preserving the aspect ratio of the image.
+	specified size preserving the aspect ratio of the image.
 	
-**QUALITY** - sets kachetvo (compression) images as a percentage of the original (100%)
+**QUALITY** - sets the quality (compression) images as a percentage of the original (100%)
 
 	100 - 100% quality.
 	
@@ -53,7 +53,7 @@ To work correctly, the script will need additional Packages:
 
 **IMG_MAX_WIDTH** и **IMG_MAX_HEIGHT** - задают размер (ширину и высоту) изображения.
 
-    Если картинка имеет больший ширину иливысоту большую, чем заданный, она будет уменьшина до
+    Если картинка имеет большую ширину или высоту, чем заданный, она будет уменьшина до
     указанного размера сохраняя пропорции изображения.
     
 **QUALITY** - задает качетво (степень сжатия) изображения в процентах от оригинала (100%)
