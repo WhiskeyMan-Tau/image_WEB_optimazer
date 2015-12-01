@@ -27,7 +27,11 @@ Description of the parameters:
 	0 to 360 - rotate clockwise
 	
 	0 to -360 - turn counterclockwise
-	
+
+**WATERMARK** - The text that will be imposed as a watermark
+
+**WATERMARK_FONT_SIZE** - The font size of the watermark
+
 
 To work correctly, the script will need additional Packages:
 
@@ -64,6 +68,10 @@ To work correctly, the script will need additional Packages:
 	
 	от 0 до -360 - поворот против часовой
 	
+**WATERMARK** - Текст, который будет наложен в виде водяного знака
+
+**WATERMARK_FONT_SIZE** - Размер шрифта водяного знака
+
 
 Для корректной работы скрипта понадобятся дополнительные пакеты пакеты:
 
